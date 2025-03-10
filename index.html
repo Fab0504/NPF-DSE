@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Audio examples for NPF for DSE</title>
+		<meta charset="utf-8">
+
+        <!-- <style> 
+            body{text-align:center} 
+        </style>  -->
+        
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    
+    <body>
+        <div class="header">
+            <h1 class="mt-5">Audio examples for neural post-filtering for directional speech enhancement</h1>
+        </div>
+
+        <br>
+        
+        <div class="narrow-container">
+            <div class="comparisons-desktop" align="center">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Mixture</th>
+                            <th>Clean</th>
+                            <th>GSC</th>
+                            <th>FT-JNF [1]</th>
+                            <th>EaBNet [2]</th>
+                            <th>Proposed</th>
+                        </tr>
+    
+                        <tr>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/01_mix.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/01_clean.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/01_gsc.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/01_ftjnf.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/01_eabnet.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/01_proposed.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/02_mix.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/02_clean.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/02_gsc.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/02_ftjnf.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/02_eabnet.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/02_proposed.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/03_mix.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/03_clean.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/03_gsc.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/03_ftjnf.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/03_eabnet.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/03_proposed.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/04_mix.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/04_clean.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/04_gsc.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/04_ftjnf.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/04_eabnet.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/04_proposed.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/05_mix.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/05_clean.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/05_gsc.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/05_ftjnf.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/05_eabnet.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                            <td class='auto-style'>
+                                <div class="audio">
+                                    <audio controls>
+                                        <source src="samples/05_proposed.wav", type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </td>
+                        </tr>
+    
+                    </tbody>
+                </table>
+
+                <br><br>
+            </div>
+  
+        <p>
+            [1] Tesch K, Gerkmann T. Insights into deep non-linear filters for improved multi-channel speech enhancement[J]. IEEE/ACM Transactions on Audio, Speech, and Language Processing, 2022, 31: 563-575.
+        </p>
+        <p>
+            [2] Li A, Liu W, Zheng C, et al. Embedding and beamforming: All-neural causal beamformer for multichannel speech enhancement[C]//ICASSP 2022-2022 IEEE international conference on acoustics, speech and signal processing (ICASSP). IEEE, 2022: 6487-6491.
+        </p>
+        </div>
+    </body>
+</html>		
